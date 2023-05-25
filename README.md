@@ -96,13 +96,13 @@ display_contract(contract)
 
 ```
 
-In this example, we define a dictionary called contract that represents the contract details. The contract includes information about the parties involved, the effective date, the terms of the contract, and the signatures of the parties.
+In this example, we define a dictionary called `contract` that represents the contract details. The contract includes information about the parties involved, the effective date, the terms of the contract, and the signatures of the parties.
 
-The display_contract function is used to print the contract details in a readable format.
+The `display_contract` function is used to print the contract details in a readable format.
 
-The sign_contract function is used to update the signatures of the parties. It takes the contract and the party as inputs and updates the corresponding signature to True.
+The `sign_contract` function is used to update the signatures of the parties. It takes the contract and the `party` as inputs and updates the corresponding signature to `True`.
 
-After defining the functions, we first display the initial contract using display_contract. Then we simulate the signing of the contract by calling sign_contract for each party. Finally, we display the updated contract to verify the signatures.
+After defining the functions, we first display the initial contract using display_contract. Then we simulate the signing of the contract by calling `sign_contract` for each party. Finally, we display the updat meed contract to verify the signatures.
 
 Note that this is a simplified example to illustrate the basic structure. In a real-world scenario, contracts are typically more complex and would require a more sophisticated approach to handle their creation, storage, and execution.
 
